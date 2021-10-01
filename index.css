@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+    text-align: center;
+}
+
+.first{
+    justify-content: center;
+    /* margin-left: 20%; */
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.box1{
+    height: 90px;
+    margin: 25px;
+    width: 90px;
+    background-color: rgb(19, 19, 133);
+    animation-name: anibox1;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform: skew(-20deg);
+}
+
+@keyframes anibox1 {
+    50%{
+        transform: skew(20deg);
+    }
+}
+
+
+
+
+
+.box2{
+    height: 90px;
+    margin: 25px;
+    width: 90px;
+    background-color: rgb(126, 53, 136);
+    animation-name: anibox2;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    transform: rotate(-25deg);
+}
+
+@keyframes anibox2 {
+    50%{
+        transform: rotate(25deg);
+    }
+}
+
+
+.box3{
+    height: 90px;
+    margin: 25px;
+    width: 90px;
+    background-color: rgb(206, 105, 23);
+    animation-name: anibox3;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes anibox3 {
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box4{
+    height: 10px;
+    margin: 25px;
+    width: 90px;
+    background-color: rgb(29, 188, 209);
+    animation-name: anibox4;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes anibox4 {
+    0%{
+        height: 10px;
+    }
+    50%{
+        height: 100px;
+    }
+    
+}
+
+.box5{
+    height: 70px;
+    margin: 25px;
+    width: 10px;
+    background-color: rgb(156, 20, 8);
+    animation-name: anibox5;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+    
+}
+
+@keyframes anibox5 {
+    0%{
+        width: 10px;
+    }
+
+    50%{
+        width: 100px;
+    }
+    
+}
+
+.box6{
+    height: 90px;
+    margin: 25px;
+    width: 90px;
+    background-color: rgb(11, 155, 23);
+    animation-name: anibox6;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+  
+    
+}
+@keyframes anibox6 {
+    50%{
+        transform: rotate(90deg);
+    }
+    
+}
+
+
+.bbox1{
+    height: 150px;
+    width: 150px;
+    align-items: center;
+}
+
+.bbox2{
+    height: 150px;
+    width: 150px;
+}
+
+.bbox3{
+    height: 150px;
+    width: 150px;
+}
+
+.btn{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+

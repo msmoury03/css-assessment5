@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: yellow;
+
+}
+
+.heading{
+    text-align: center;
+}
+
+.container{
+    justify-content: center;
+    margin-left: 40%;
+    
+}
+
+.box{
+    height: 90px;
+    width: 90px;
+    background-color: green;
+    margin-top: 20px;
+    transition: width 2s, height 4s;
+}
+
+.box1:hover{
+    width: 300px;
+}
+
+.box2:hover{
+    width: 250px;
+    height: 250px;
+}
+
+.box3:hover{
+    width: 350px;
+    
+}
+
+.box4:hover{
+    width: 350px;
+    
+}
+
+.box5:hover{
+    width: 350px;
+    
+}
+
+.box6:hover{
+    width: 350px;
+    
+}
+
+.box7:hover{
+    width: 350px;
+    
+}
+
+.btn{
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+}
